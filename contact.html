@@ -1,21 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Contact - Sensive</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.csssss" />
 </head>
 <body>
   <header>
-    <h2 class="logo">Sensive</h2>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="archive.html">Archive</a>
-      <a href="category.html">Category</a>
-      <a href="pages.html">Pages</a>
-      <a href="contact.html">Contact</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="fashion.html">Fashion</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
     </nav>
   </header>
-  <h1 style='text-align:center; margin-top:100px;'>This is Contact Page</h1>
+
+  <main class="contact-page">
+    <section class="contact-header">
+      <h1>Contact Us</h1>
+      <p>We’d love to hear from you! Please fill out the form below or reach us directly.</p>
+    </section>
+
+    <section class="contact-container">
+      <div class="contact-form">
+        <form action="#" method="post">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p><strong>📍 Address:</strong> Phnom Penh, Cambodia</p>
+        <p><strong>📞 Phone:</strong> +855 96 123 4567</p>
+        <p><strong>📧 Email:</strong> contact@fashionstyle.com</p>
+        <hr />
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="#">🌐 Facebook</a>
+          <a href="#">📸 Instagram</a>
+          <a href="#">🐦 Twitter</a>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
