@@ -2,20 +2,57 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Archive - Sensive</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archive Page | Sensive</title>
+  <link rel="stylesheet" href="archive_style.css">
 </head>
 <body>
   <header>
-    <h2 class="logo">Sensive</h2>
+    <div class="logo">Sensive</div>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="archive.html">Archive</a>
-      <a href="category.html">Category</a>
-      <a href="pages.html">Pages</a>
-      <a href="contact.html">Contact</a>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#" class="active">Archive</a></li>
+        <li><a href="#">Category</a></li>
+        <li><a href="#">Pages</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </nav>
   </header>
-  <h1 style='text-align:center; margin-top:100px;'>This is Archive Page</h1>
+
+  <section class="archive-section">
+    <h1>This is Archive Page</h1>
+    <p class="subtitle">Browse all posts stored in our archive</p>
+
+    <div class="archive-grid">
+      <div class="archive-card">
+        <img src="https://source.unsplash.com/400x250/?technology" alt="">
+        <div class="card-content">
+          <h2>Modern Tech Trends</h2>
+          <p>Explore the latest innovations and tech stories from around the world.</p>
+        </div>
+      </div>
+
+      <div class="archive-card">
+        <img src="https://source.unsplash.com/400x250/?computer" alt="">
+        <div class="card-content">
+          <h2>Building Your First PC</h2>
+          <p>A complete guide for beginners to assemble their dream machine.</p>
+        </div>
+      </div>
+
+      <div class="archive-card">
+        <img src="https://source.unsplash.com/400x250/?coding" alt="">
+        <div class="card-content">
+          <h2>Web Development Essentials</h2>
+          <p>Learn how to design and code beautiful, responsive websites easily.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Sensive. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
