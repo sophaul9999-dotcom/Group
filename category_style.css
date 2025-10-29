@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+}
+
+/* ===== Navbar ===== */
+header {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  padding: 15px 50px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.nav-links a:hover {
+  color: #f76c6c;
+}
+
+/* ===== Category Section ===== */
+.category {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.category h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.category p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* ===== Fashion Grid ===== */
+.fashion-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  background-color: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  margin: 15px 10px 5px;
+  font-size: 18px;
+}
+
+.card p {
+  margin: 0 10px 20px;
+  color: #666;
+  font-size: 14px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
